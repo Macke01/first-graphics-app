@@ -74,7 +74,7 @@
     "baseUrl": "./",
     "directories": {
       "source": "src",
-      "destination": "build",
+      "destination": "docs",
       "temporary": "tmp",
       "//": "Directories relative to `source` directory",
       "modules": "_modules",
@@ -83,10 +83,5 @@
       "styles": "_styles",
       "scripts": "_scripts",
       "data": "_data"
-    },
-    "entries": {
-      "js": "main**.js",
-      "css": "main**.{sass,scss}"
     }
   }
-}
